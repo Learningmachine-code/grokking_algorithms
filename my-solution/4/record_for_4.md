@@ -44,3 +44,27 @@ print("The result is", max([1, 3, 5, 6, 7, 2]))
 ```
 
 >4.4 Remember binary search from chapter 1? It’s a divide-and-conquer algorithm, too. Can you come up with the base case and recursive case for binary search?
+
+>Solution:
+The base case is `guess=item`
+The recursive case is `low<high`
+
+---
+>4.5 Printing the value of each element in an array.
+
+>$O(n);$
+
+---
+>4.6 Doubling the value of each element in an array.
+
+>$O(n);$
+
+---
+>4.7 Doubling the value of just the first element in an array.
+
+>$O(1);$
+
+---
+>4.8 Creating a multiplication table with all the elements in the array. So if your array is [2, 3, 7, 8, 10], you first multiply every element by 2,then multiply every element by 3, then by 7, and so on.
+
+>$O(n^2)$
